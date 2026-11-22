@@ -1,0 +1,6 @@
+{
+  "name": "سامانه مدیریت تجهیزات و سایت‌های مخابراتی",
+  "description": "سامانه جامع و اداری مدیریت مراکز و تجهیزات مخابراتی، تولید بارکد و QR کد ثابت اموال، آرشیو اسناد و نقشه‌های PDF و محاسبه‌گر هوشمند آنلاین حجم مخازن سوخت دیزل",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Tabular figures for numbers and codes */
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Print styling for equipment QR sticker tags */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-card {
+    border: 1px solid #000 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+}
